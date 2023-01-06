@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand:400,700&display=swap');
+
+body , header {
+    font-family: 'Quicksand',sans-serif,serif,cursive;
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+    text-align: justify;
+    background: scroll;
+    background-color: rgb(195, 200, 200);
+ }
+ h1{
+   color: #00a2c6;
+   text-align: center;
+   font-size: 32px;
+}
+h2{
+    color: #00a2c6;
+    text-align: center;
+ }
+h3{
+   color: #00a2c6;
+   text-align: left;
+   margin-left: 5%;
+}
+h4 {
+   color: #00a2c6;
+   text-align: center;
+}
+
+ nav a {
+   font-size: 20px;
+   font-weight: 400;
+   background-position: center;
+   text-align: center;
+   text-overflow: clip;
+   margin-inline: 3%;
+}
+
+nav a:hover {
+   font-weight: bold;
+}
+figure{
+   text-align: center;
+}
+
+/*link nav*/
+/* rule akan diterapkan pada sebuah tautan yang belum pernah dikunjungi */
+a:link {
+   color: red;
+   }
+/* rule akan diterapkan pada sebuah tautan yang sudah pernah dikunjungi */
+a:visited {
+  color: green;
+   }
+/* rule akan diterapkan pada sebuah tautan ketika diarahkan dengan kursor */
+a:hover {
+  color: rgb(240, 8, 47);
+   }
+
+/* Rule styling akan diterapkan pada karakter pertama disebuah paragraf */
+p::first-letter {
+          font-size: 20px;
+          font-weight: bold;
+          color: rgb(41, 19, 139);
+   }
+h1 {color:green;
+      font-size: 150%;
+      text-align: center;
+}
+h2 {font-family: monospace;}
+p{ font-size: 100%;
+         margin-left: 5%;
+       }
+
+       footer {
+         padding: 20px;
+         color: white;
+         background-color: #848788;
+         text-align: center;
+         font-weight: bold;
+      }
+
+      #content {
+         background-color: rgb(200, 200, 200);
+         padding: 20px 15px;
+     }
+
+     #content > h2 {
+         background-color: #4c5450;
+         padding: 15px;
+         color: white;
+         margin-left: 5%;
+     }
+
+     #content > h3 {
+         background-color: #60d0a8;
+         padding: 15px;
+         color: white;
+         margin-left: 5%;
+     }
+     #content > h2 > img{
+      text-align: center;
+     }
+
+     #content > p {
+         padding: 14px;
+     }
+     @media screen and (max-width: 1000px) {
+      #content,
+      body {
+        width: 100%;
+        padding: 0;
+      }
+    }
+
+/*flexbox*/
+    .container {
+      display: flex;
+      flex-direction: column;
+      /* Properti lainnya */
+      width: 100%;
+      height: auto;
+      background-color: #e6e8e8;
+      border: 2px solid black;
+      padding: 5px;
+      border-radius: 5px;
+      margin: 0 auto;
+      }
+   .box {
+      /* properti lainnya */
+      background-color: #f7f7f4;
+      margin: 5px;
+      border: 2px solid black;
+      border-radius: 5px;
+   }
+   .first {
+   flex-grow: 1;
+   }
+   .second {
+   flex-grow: 1;
+   }
+   .third {
+   flex-grow: 1;
+   }
+   .fourth {
+   flex-grow: 1;
+   }
+   .fifth {
+      flex-grow: 1;
+   }
+   footer {
+      padding: 20px;
+      color: white;
+      background-color: #00a2c6
+   }
+
+   .Profile {
+      text-align: center;
+   }
